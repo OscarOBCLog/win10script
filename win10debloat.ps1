@@ -32,10 +32,8 @@ $tweaks = @(
 	### External Program Setup
 	# 
 	"InstallOtherProgs", #REQUIRED FOR OTHER PROGRAM INSTALLS!
-	# 
-	"InstallChrome",
-	#
-	"InstallAdobe",
+	# "InstallChrome",
+	# "InstallAdobe",
 	# 
 	"Install7Zip",
 	# "InstallNotepadplusplus",
@@ -132,7 +130,8 @@ $tweaks = @(
 	"DisableFastStartup",				# "EnableFastStartup",
 
 	### UI Tweaks ###
-	# "DisableActionCenter",			# "EnableActionCenter",
+	#
+	"DisableActionCenter",			# "EnableActionCenter",
 	# "DisableLockScreen",				# "EnableLockScreen",
 	# "DisableLockScreenRS1",			# "EnableLockScreenRS1",
 	# "HideNetworkFromLockScreen",		# "ShowNetworkOnLockScreen",
