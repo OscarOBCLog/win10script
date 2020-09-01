@@ -32,8 +32,10 @@ $tweaks = @(
 	### External Program Setup
 	# 
 	"InstallOtherProgs", #REQUIRED FOR OTHER PROGRAM INSTALLS!
-	# "InstallChrome",
-	# "InstallAdobe",
+	# 
+	"InstallChrome",
+	# 
+	"InstallAdobe",
 	# 
 	"Install7Zip",
 	# "InstallNotepadplusplus",
@@ -88,8 +90,7 @@ $tweaks = @(
 	# "SetUnknownNetworksPrivate",		# "SetUnknownNetworksPublic",
 	# "DisableNetDevicesAutoInst",		# "EnableNetDevicesAutoInst",
 	# "DisableCtrldFolderAccess",		# "EnableCtrldFolderAccess",
-	# 
-	"DisableFirewall",				# "EnableFirewall",
+	# "DisableFirewall",				# "EnableFirewall",
 	# "DisableDefender",				# 
 	"EnableDefender",
 	# "DisableDefenderCloud",			# 
@@ -117,8 +118,10 @@ $tweaks = @(
 	"DisableAutoplay",				# "EnableAutoplay",
 	# 
 	"DisableAutorun",					# "EnableAutorun",
-	# "DisableStorageSense",			# "EnableStorageSense",
-	# "DisableDefragmentation",			# "EnableDefragmentation",
+	# 
+	"DisableStorageSense",			# "EnableStorageSense",
+	# 
+	"DisableDefragmentation",			# "EnableDefragmentation",
 	# 
 	"DisableSuperfetch",				# "EnableSuperfetch",
 	# "DisableIndexing",				# "EnableIndexing",
@@ -130,8 +133,7 @@ $tweaks = @(
 	"DisableFastStartup",				# "EnableFastStartup",
 
 	### UI Tweaks ###
-	#
-	"DisableActionCenter",			# "EnableActionCenter",
+	# "DisableActionCenter",			# "EnableActionCenter",
 	# "DisableLockScreen",				# "EnableLockScreen",
 	# "DisableLockScreenRS1",			# "EnableLockScreenRS1",
 	# "HideNetworkFromLockScreen",		# "ShowNetworkOnLockScreen",
@@ -159,8 +161,7 @@ $tweaks = @(
 	# "SetVisualFXPerformance",			# "SetVisualFXAppearance",
 	# "AddENKeyboard",					# "RemoveENKeyboard",
 	# "EnableNumlock",					# "DisableNumlock",
-	# 
-	"EnableDarkMode",					# "DisableDarkMode",
+	# "EnableDarkMode",					# "DisableDarkMode",
 	# 
 	"Stop-EdgePDF",
 
@@ -245,12 +246,14 @@ $tweaks = @(
 	#"UnpinTaskbarIcons",
 
 	### Auxiliary Functions ###
-	# "WaitForKey"
-	# "Restart"
+	# 
+	"WaitForKey"
+	# 
+	"Restart"
 )
 
 #########
-# Recommended Titus Programs
+# Recommended Programs | Added Chrome for my clients
 #########
 
 Function InstallOtherProgs {
