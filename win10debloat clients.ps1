@@ -39,7 +39,8 @@ $tweaks = @(
 	# 
 	"Install7Zip",
 	# "InstallNotepadplusplus",
-	# "InstallMediaPlayerClassic",
+	# 
+	"InstallMediaPlayerClassic",
 
 	### Windows Apps
 	# 
@@ -58,8 +59,7 @@ $tweaks = @(
 	"DisableAppSuggestions",			# "EnableAppSuggestions",
 	# 
 	"DisableActivityHistory",			# "EnableActivityHistory",
-	# 
-	"DisableBackgroundApps",			# "EnableBackgroundApps",
+	# "DisableBackgroundApps",			# "EnableBackgroundApps",
 	# 
 	"DisableLocationTracking",		# "EnableLocationTracking",
 	# "DisableMapUpdates",				# 
@@ -203,10 +203,8 @@ $tweaks = @(
 	# "DisableThumbsDB",				# "EnableThumbsDB",
 
 	### Application Tweaks ###
-	# 
-	"DisableOneDrive",				# "EnableOneDrive",
-	# 
-	"UninstallOneDrive",				# "InstallOneDrive",
+	# "DisableOneDrive",				# "EnableOneDrive",
+	# "UninstallOneDrive",				# "InstallOneDrive",
 	# 
 	"UninstallMsftBloat",				# "InstallMsftBloat",
 	# 
